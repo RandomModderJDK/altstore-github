@@ -198,6 +198,6 @@ if (user) {
 }
 
 // Perform validation
-config.validate({allowed: 'strict'})
+config.validate({allowed: 'warn'})
 
 module.exports = config

@@ -59,6 +59,7 @@ var config = convict({
       filename: {
         doc: "Filename",
         format: String,
+        nullable: true,
         default: null
       },
       githubOwner: {
